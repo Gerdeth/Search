@@ -1,0 +1,6 @@
+body, html{
+    columns: #202124;
+}
+body, td,a,p,.h {
+    font-family: arial,sans-serif;
+}

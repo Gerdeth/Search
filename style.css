@@ -4,6 +4,11 @@ body, html{
 body, td,a,p,.h {
     font-family: arial,sans-serif;
 }
-form{
+ form{
     margin:auto;
+    width:60%;
+    height:60%;
+}
+.upperRight{
+    margin-left: 75%;
 }

@@ -11,4 +11,8 @@ body, td,a,p,.h {
 }
 .upperRight{
     margin-left: 75%;
+    padding-top: 0;
+}
+center{
+    padding-top: 30%;
 }

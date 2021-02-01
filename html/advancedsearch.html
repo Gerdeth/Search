@@ -12,7 +12,7 @@
             margin-left: 50%;
         }
         #query{
-            width:60%;
+            width:50%;
         }
         input{
             text-rendering: auto;
@@ -44,22 +44,26 @@
         <div>
             <span>Find pages with…</span>
             
-            <form action="https://www.google.com/advanced_search">
+            <form action="https://www.google.com/search?">
                 <div>
                     <label>all these words:</label>
                     <input type="text" id="query" name="q" >
+                    <label>Type the important words:  black rat terrier</label>
                 </div>
                 <div>
                     <label>this exact word or phrase:</label>
                     <input type="text" id="query" name="q" >
+                    <label>Put exact words in quotes:  "rat terrier"</label>
                 </div>
                 <div>
                     <label>any of these words:</label>
                     <input type="text" id="query" name="q" >
+                    <label>Type OR between all the words you want:  love or charity</label>
                 </div>
                 <div>
                     <label>none of these words:</label>
                     <input type="text" id="query" name="q" >
+                    <label>Put a minus sign just before words you don't want:  -roach, -"Elvis Pressely"</label>
                 </div>
                 
                 <input type="submit" id="search" value="Advanced Search">

@@ -8,6 +8,28 @@
         .upperRight{
             margin-left: 70%;
         }
+        #search{
+            margin-left: 50%;
+        }
+        #query{
+            width:60%;
+        }
+        input{
+            text-rendering: auto;
+            color: -internal-light-dark(rgb(3, 3, 3), white);
+            letter-spacing: normal;
+            word-spacing: normal;
+            text-transform: none;
+            text-indent: 0px;
+            text-shadow: none;
+            display: inline-block;
+            appearance: textfield;
+            background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+            -webkit-rtl-ordering: logical;
+            cursor: text;
+            margin: 0em;
+            font: 400 13.3333px Arial;
+        }
     </style>
     <body>
         <div class="upperRight">
@@ -25,22 +47,22 @@
             <form action="https://www.google.com/advanced_search">
                 <div>
                     <label>all these words:</label>
-                    <input type="text" name="q" >
+                    <input type="text" id="query" name="q" >
                 </div>
                 <div>
                     <label>this exact word or phrase:</label>
-                    <input type="text" name="q" >
+                    <input type="text" id="query" name="q" >
                 </div>
                 <div>
                     <label>any of these words:</label>
-                    <input type="text" name="q" >
+                    <input type="text" id="query" name="q" >
                 </div>
                 <div>
                     <label>none of these words:</label>
-                    <input type="text" name="q" >
+                    <input type="text" id="query" name="q" >
                 </div>
                 
-                <input type="submit" value="Advanced Search">
+                <input type="submit" id="search" value="Advanced Search">
             </form>
         </div>
          

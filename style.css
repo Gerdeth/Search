@@ -15,9 +15,16 @@ body, td,a,p,.h {
     padding-top: 10px;
     
 }
+.query{
+    border-radius: 14px;
+    width:60%;
+    height: 40px;
+}
 .button{
-   background: #383beb; 
-   color:white;
+  border-radius: 5px;
+   color:black;
+   margin-top: 10px;
+   
 }
 
     

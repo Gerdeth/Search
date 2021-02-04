@@ -6,7 +6,7 @@
     </head>
     <style>
         .upperRight{
-            margin-left: 70%;
+            margin-left: 80%;
         }
         #search{
             margin-left: 50%;
@@ -30,43 +30,43 @@
             margin: 0em;
             font: 400 13.3333px Arial;
         }
+        .form_query{
+            padding-bottom: 10px;;
+        }
+        .first-line{
+            padding-bottom: 10px;
+        }
     </style>
     <body>
         <div class="upperRight">
-            <nav>
-                <ul>
-                  
-                  <li><a href="/html/imagesearch.html">Google Image Search</a></li>
-                  <li><a href="/index.html">Google Search</a></li>
-                </ul>
-              </nav>
+                  <a href="/index.html">Google Search</a>
         </div>
-        <div>
-            <span>Find pages with…</span>
+        <div >
+            <span class="first-line" >Find pages with…</span>
             
             <form action="https://www.google.com/search?">
-                <div>
+                <div class= "form_query">
                     <label>all these words:</label>
                     <input type="text" id="query" name="q" >
                     <label>Type the important words:  black rat terrier</label>
                 </div>
-                <div>
+                <div class= "form_query">
                     <label>this exact word or phrase:</label>
                     <input type="text" id="query" name="q" >
                     <label>Put exact words in quotes:  "rat terrier"</label>
                 </div>
-                <div>
+                <div class= "form_query">
                     <label>any of these words:</label>
                     <input type="text" id="query" name="q" >
                     <label>Type OR between all the words you want:  love or charity</label>
                 </div>
-                <div>
+                <div class= "form_query">
                     <label>none of these words:</label>
                     <input type="text" id="query" name="q" >
                     <label>Put a minus sign just before words you don't want:  -roach, -"Elvis Pressely"</label>
                 </div>
                 
-                <input type="submit" id="search" value="Advanced Search">
+                <input  type="submit" id="search" value="Advanced Search">
             </form>
         </div>
          
